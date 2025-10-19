@@ -1,0 +1,20 @@
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "username": "Dang Khoi"
+}
+###
+GET http://localhost:3000/api/users
+
+###
+POST http://localhost:3000/api/users/r50kc9z1/exercises
+Content-Type: application/json
+
+{
+  "description": "exam",
+  "duration": 60,
+  "date": "2005-06-30"
+}
+###
+GET http://localhost:3000/api/users/r50kc9z1/logs?from=2025-08-10
